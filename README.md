@@ -15,7 +15,11 @@ Bu program ile rt ile çalışan bir thread oluşturulmuştur. Bu thread içinde
 
 Bu programı derlemek için gereken komut satırı:
 
->****gcc rt_sqlite.c -o rt_sqlite -lpthread -lrt -lsqlite3
+...
+gcc rt_sqlite.c -o rt_sqlite -lpthread -lrt -lsqlite3
+...
+
+
 
 **Referanslar:**
 
