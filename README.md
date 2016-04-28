@@ -13,11 +13,9 @@ Bu program dosyası ile üzerinde çalışılan çekirdeğin realtime olup olmad
 
 Bu program ile rt ile çalışan bir thread oluşturulmuştur. Bu thread içindeki döngü 5 ms aralıkla dönmektedir. Her dönüşte Linux microsaniye olarak zaman olarak alınmakta ve sqlite tablosuna bu süre yazılmaktadır. sqlite veri yazma işleminin uzun sürmemesi için **transaction** ve **prepared statement** kullanılmaktadır.
 
-
-
 Bu programı derlemek için gereken komut satırı:
 
-gcc rt_sqlite.c -o rt_sqlite -lpthread -lrt -lsqlite3
+>gcc rt_sqlite.c -o rt_sqlite -lpthread -lrt -lsqlite3
 
 **Referanslar:**
 
