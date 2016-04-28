@@ -1,6 +1,6 @@
 # rpi_rt
 
-preempt-rt çekirdekli raspberry pi ile gerçek zamanlı thread testi için geliştirilen uygulamalar.
+preempt-rt çekirdekli raspberry pi ile gerçek zamanlı thread testi için geliştirilen uygulamalar. Raspberry Pi2 ile çalışılmak üzere **emlid-raspberrypi2-raspbian-rt-20150401.img** işletim sistemi imajı kullanıldı.
 
 
 **rttest.c:**
@@ -18,6 +18,8 @@ gcc rt_sqlite.c -o rt_sqlite -lpthread -lrt -lsqlite3
 ```
 
 **Referanslar:**
+
+https://docs.emlid.com/navio/Downloads/Real-time-Linux-RPi2/
 
 http://stackoverflow.com/questions/18776812/problems-linking-to-sqlite3-h-with-gcc
 
