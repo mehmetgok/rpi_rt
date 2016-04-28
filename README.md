@@ -19,6 +19,10 @@ Bu programı derlemek için gereken komut satırı:
 
 gcc rt_sqlite.c -o rt_sqlite -lpthread -lrt -lsqlite3
 
+**Referanslar:**
+
+http://stackoverflow.com/questions/18776812/problems-linking-to-sqlite3-h-with-gcc
+
 
 
 
